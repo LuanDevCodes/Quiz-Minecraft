@@ -12,7 +12,7 @@ O projeto consiste em um quiz de perguntas e respostas com pontuação automáti
 
 ## 🌟 Destaques do Projeto
 
-### 🧩 **Funcionalidades: **
+### 🧩 **Funcionalidades:**
 | 🏆 Sistema de Pontuação | 🎯 5 Perguntas Progressivas | 📱 Responsivo |
 |------------------------|----------------------------|--------------|
 | 🎉 Animação de Confete  | 🖋️ Fonte Minecraft Oficial  | 🖥️ Mobile/Desktop |
