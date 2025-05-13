@@ -19,10 +19,10 @@ O projeto consiste em um quiz de perguntas e respostas com pontuação automáti
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Todas as Funcionalidades
 
 - 5 perguntas com dificuldade progressiva
-- Animação em destaque com texto rotacionado
+- Animação em destaque com texto rotacionado ("tombado" estilo Minecraft)
 - Fonte personalizada (`Minecraft.ttf`)
 - Plano de fundo animado com `.gif`
 - Exibição de pontuação ao final com porcentagem de acertos
@@ -35,10 +35,10 @@ O projeto consiste em um quiz de perguntas e respostas com pontuação automáti
 
 ## 💻 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- Fonte personalizada via `@font-face`
+- 📜 HTML5
+- 🎨 CSS3
+- ⚡ JavaScript
+- 🖼️ Canvas Confetti (Efeitos)
 
 ---
 
