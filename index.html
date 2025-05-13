@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Show de Bola</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script> <!--Usando o Defer nós podemos colocar o JS aqui no começo, ele vai esperar o código carregar para prosseguir-->
+</head>
+<body>
+    <div id="header">
+        <img src="steve.jpg" class="icon-left">
+        <img src="creeper.jpg" class="icon-right">
+    </div>
+
+    <h1 id="main-title">Minecraft Quiz</h1>
+    
+    <!--SCORE BOARD-->
+    <div id="score-container" class="hide">
+        <h2>Parabéns</h2>
+        <p id="display-score"><span>90</span>%</p><!--Esses "Spans" vão ser alterados dinâmicamentes conforme a questão, por isso seu texto atual pode ser estático-->
+        <p>Você acertou <span id="corret-answer">0</span> de <span id="questions-qty">5</span> perguntas</p>
+        <button id="restart">Refazer Quiz</button>
+    </div>
+
+    <!--O ALERTA ANIMADO-->
+    <div id="message-container" class="minecraft-alert">
+        <span class="alert-text">Yes, sir!</span>
+    </div>
+
+    <!--QUIZ CONTAINER-->
+    <div id="quiz-container">
+        <p id="question">
+            <span id="question-number">1</span> - <span id="question-text">Qual é o bloco mais raro de ser encontrado naturalmente no Overworld?</span>
+        </p>
+        <div id="answer-box">
+            <button>
+                <span class="btn-letter">A</span>
+                <span class="question-answer">0</span>
+            </button>
+            <button>
+                <span class="btn-letter">B</span>
+                <span class="question-answer">1</span>
+            </button>
+            <button>
+                <span class="btn-letter">C</span>
+                <span class="question-answer">2</span>
+            </button>
+            <button>
+                <span class="btn-letter">D</span>
+                <span class="question-answer">3</span>
+            </button>
+        </div>
+    </div>
+
+    <!--TEMPLATE DAS RESPOSTAS-->
+    <button class="answer-template hide"><span class="btn-letter">A</span> <span class="question-answer">0</span></button>
+
+    <!--BIBLIOTECA EM JS COM O EFEITO DE CONFETTI QUE VOU USAR NO FINAL-->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</body>
+</html>
