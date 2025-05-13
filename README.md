@@ -8,9 +8,11 @@ Este é um projeto desenvolvido durante o curso de programação de JS, com o ob
 
 O projeto consiste em um quiz de perguntas e respostas com pontuação automática, animações CSS, fontes personalizadas, responsividade para dispositivos móveis e efeitos visuais.
 
+---
+
 ## 🌟 Destaques do Projeto
 
-### 🧩 **Funcionalidades Incríveis**
+### 🧩 **Funcionalidades: **
 | 🏆 Sistema de Pontuação | 🎯 5 Perguntas Progressivas | 📱 Responsivo |
 |------------------------|----------------------------|--------------|
 | 🎉 Animação de Confete  | 🖋️ Fonte Minecraft Oficial  | 🖥️ Mobile/Desktop |
