@@ -38,7 +38,7 @@ O projeto consiste em um quiz de perguntas e respostas com pontuação automáti
 
 ### Tela Inicial
 
-![Tela Inicial](imagens/tela-inicial.png)
+![Tela Inicial](screenshot.png)
 
 ### Exibição no Mobile
 
