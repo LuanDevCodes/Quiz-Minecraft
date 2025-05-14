@@ -46,11 +46,11 @@ O projeto consiste em um quiz de perguntas e respostas com pontuação automáti
 
 ### Tela Inicial
 
-![Tela Inicial](screenshot.png)
+![Tela Inicial]()
 
 ### Resultado Final
 
-![Resultado Final](screenshot-final-game.png)
+![Resultado Final]()
 
 ### Exibição no Mobile
 
